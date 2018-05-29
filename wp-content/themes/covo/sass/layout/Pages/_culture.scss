@@ -1,0 +1,34 @@
+.culture{
+	.culture-box-each{
+		width: 100%;
+		height: 290px;
+		overflow: hidden;
+		background: #f1f1f1;
+		position: relative;
+		img{
+			width: 100%;
+			height: auto;
+		}
+		&:hover{
+			.over-culture{
+				opacity: 1;
+				cursor: pointer;
+			}
+		}
+		.over-culture{
+			transition: all 0.4s ease;
+			background-color:rgba(0, 0, 0, 0.50);
+			position:absolute;
+			z-index: 666;
+			width: 100%;
+			height: 100%;
+			padding: 20px;
+			opacity: .0;
+			h1{
+				font-size: 20px;
+				color: $white;
+				font-weight: 700;
+			}
+		}
+	}
+}

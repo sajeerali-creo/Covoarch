@@ -1,0 +1,37 @@
+.team{
+	.l6{
+		margin-bottom: 20px;
+	}
+	.team-mb{
+		width: 96px;
+		height: 96px;
+		background-color: #f1f1f1;
+		border-radius:160px;
+		-webkit-border-radius:160px;
+		-moz-border-radius:160px;
+		float: left;
+		margin-right:20px;
+	}
+	.team-detail{
+		float: left;
+		width: calc(100% -126px);
+		text-align: left;
+		h4{
+			font-size: 20px;
+			font-weight: 700;
+			color: $black;
+			display: block;
+			padding: 15px 0px 10px 0px;
+
+		}
+		span{
+			font-size: 13px;
+			color: #95989A;
+		}
+		p{
+			font-size: 13px;
+			color: #95989A;
+			padding-top:5px;
+		}
+	}
+}

@@ -1,0 +1,87 @@
+/*==========  Mobile First Method  ==========*/
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.work-box{
+		width: 49%!important;
+	}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.work-box{
+		width: 49%!important;
+	}
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.main-menu{
+		display: none;
+	}
+	.banner{
+		canvas {
+		    width: 100%;
+		    padding-top: 10%;
+		}
+	}
+	.left-w{
+		width: 100%!important;
+	}
+	.right-w{
+		width: 100%!important;
+		display: none;
+	}
+	.work-box{
+		width: 100%!important;
+	}
+	footer{
+		padding:20px 0px;
+		p{
+			width: 100%;
+		}
+	}
+	.bt-normal{
+		margin:0px auto;
+		float: none;
+	}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.main-menu{
+		display: none;
+	}
+	.banner{
+		canvas {
+		    width: 100%;
+		    padding-top: 10%;
+		}
+	}
+	.left-w{
+		width: 100%!important;
+	}
+	.right-w{
+		width: 100%!important;
+		display: none;
+	}
+	.work-box{
+		width: 100%!important;
+	}
+	footer{
+		padding:20px 0px;
+		p{
+			width: 100%;
+		}
+	}
+	.bt-normal{
+		margin:0px auto;
+		float: none;
+	}
+}

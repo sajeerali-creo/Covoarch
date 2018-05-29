@@ -1,0 +1,72 @@
+.bg-light{
+	background-color:$light-gray;
+}
+.service{
+	p{
+		font-size: 13px;
+		line-height: 23px;
+		color: $text;
+	}
+	i{
+		font-size: 135px;
+		color: $black;
+		text-align: right;
+		float: right;
+	}
+	img{
+		height: 205px;
+		width: auto;
+		margin:0px auto;
+	}	
+	.service-box{
+		width: 100%;
+		float: left;
+		padding-bottom: 20px;
+	}
+	.icon-box{
+		width: 75px;
+		height: 60px;
+		float: left;
+		i{
+			display: block;
+			width: 60px;
+			height: 60px;
+			border-radius: 160px;
+			-webkit-border-radius:160px;
+			-moz-border-radius:160px;
+			background-color:$black;
+			color: $white;
+			font-size: 20px;
+			text-align: center;
+			line-height: 60px;
+			float: left;
+		}
+	}
+	.service-text{
+		width: calc(100% - 75px);
+		float: left;
+		h2{
+			font-size: 18px;
+			color: $black;
+			font-weight:600;
+		}
+		p{
+			font-size: 13px;
+			color: $text;
+			line-height: 20px;
+		}
+	}
+}
+
+.orange-bg{
+	background-color:$orange!important;
+}
+.dark-bg{
+	background-color:$dark!important;
+}
+.blue-bg{
+	background-color:$blue!important;
+}
+.silver-bg{
+	background-color:$light-silver!important;
+}

@@ -1,0 +1,2 @@
+[05-Dec-2017 15:30:09 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/creotopipanel/public_html/covoarch.com/wp-content/themes/twentysixteen/404.php on line 10
+[03-Jan-2018 02:51:42 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/creotopipanel/public_html/covoarch.com/wp-content/themes/twentysixteen/404.php on line 10

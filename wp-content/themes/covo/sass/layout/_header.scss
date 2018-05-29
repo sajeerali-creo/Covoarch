@@ -1,0 +1,26 @@
+.inner-header{
+	width:100%;
+	height: auto;
+	background-color:#f1f1f1;
+	padding:15px 0px;
+	float:left;
+	margin-bottom:50px;
+	.back-bt{
+		width: 135px;
+    	height: 40px;
+    	text-align: center;
+    	color: #fff;
+    	line-height: 40px;
+    	display: block;
+    	float: left;
+    	background: $black;
+    	transition: all 0.5s ease;
+    	border: none;
+    	letter-spacing: 2px;
+    	float: left;
+	}
+	.logo-sp{
+		width: calc(100% - 135px);
+		float: left;
+	}
+}

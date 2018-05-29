@@ -1,0 +1,60 @@
+/*Responsive*/
+
+/* Large desktop */
+@media (min-width: 1200px) {
+.work img{ width: auto; height: 280px; }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1200px) {
+.what_we_do .border{ margin:20px auto !important;}
+.creatives .border{ margin:20px auto !important;}
+.second-header{ display: none !important; }
+.work img{ width: auto; height: 280px; }
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+.brand-logo{ display: block; }
+.logo{ display: none; }
+.header{ padding: 0px }
+.main{ margin-top: 20px }
+.navbar-toggle{ margin-top: 0px; margin-right: 0px; border-radius: 0px; padding: 10px 10px }
+.navbar-nav{background-color: #111;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{ background-color: #111 }
+.navbar-nav > li > a{ padding-top: 15px; margin: 0px 60px;}
+.navbar-nav > li{ display: block !important; }
+.what_we_do .border{ margin:20px auto !important;}
+.creatives .border{ margin:20px auto !important;}
+.second-header{ display: none !important; }
+.intro{ text-align: center; }
+.border{margin: 20px auto}
+.work img{ width: auto; height: 280px; }
+.visible-lg{ display: block !important; }
+}
+ 
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+.brand-logo{ display: block; }
+.logo{ display: none; }
+.header{ padding: 0px }
+.main{ margin-top: 20px }
+.navbar-toggle{ margin-top: 0px; margin-right: 0px; border-radius: 0px; padding: 10px 10px }
+.navbar-nav{background-color: #111;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{ background-color: #111 }
+.navbar-nav > li > a{ padding-top: 15px; margin: 0px 40px;}
+.navbar-nav > li{ display: block !important; }
+.intro img{ margin: 0px 0px 40px 0px; }
+.intro{ text-align: center; }
+.border{ margin: 15px auto }
+.banner{ height: auto; padding-bottom: 50px; }
+.what_we_do .border{ margin:20px auto !important;}
+.creatives .border{ margin:20px auto !important;}
+.second-header{ display: none !important; }
+.box{min-height: 270px}
+.work img{ width: auto; height: 280px; }
+.visible-lg{ display: block !important; }
+}
